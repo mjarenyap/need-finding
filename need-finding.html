@@ -5,12 +5,12 @@
 		<style>
 			body, html{
 				font-family: 'Arial', sans-serif;
-				padding: 3%;
+				padding: 0 3%;
 			}
 
 			h1{
 				font-size: 2.5em;
-				padding-bottom: 1.3em;
+				padding-top: 1em;
 			}
 
 			ul li{
@@ -20,10 +20,30 @@
 			ul li ul{
 				padding-top: 1em;
 			}
+
+			a{
+				text-decoration: none;
+				color: blue;
+			}
+
+			#nav{
+				position: fixed;
+				right: 1em;
+			}
+
+			span{
+				padding: 0.5em 2em;
+				cursor: pointer;
+				display: block;
+			}
 		</style>
 	</head>
 	<body>
-		<h1>Community Questions</h1>
+		<div id="nav">
+			<a href="#consumer"><span>Consumers</span></a>
+			<a href="#store-owner"><span>Store managers/clerks</span></a>
+		</div>
+		<h1 id="consumer">Consumer Questions</h1>
 		<ul>
 			<li>
 				Grocery shopping experience
@@ -97,6 +117,32 @@
 				<ul>
 					<li>What features do think the app should have?</li>
 					<li>How often do think you think you'll be using this app?</li>
+				</ul>
+			</li>
+		</ul>
+
+		<h1 id="store-owner">Store Manager/Clerk Questions</h1>
+		<ul>
+			<li>
+				Care to share us your routine at work?
+				<ul>
+					<li>Being a cashier?</li>
+					<li>Being a re-stocker?</li>
+				</ul>
+			</li>
+			<li>
+				How long have you been working in the store?
+				<ul>
+					<li>Tell us some interesting experiences about your work?</li>
+				</ul>
+			</li>
+			<li>
+				How are the customers?
+				<ul>
+					<li>How do they behave in the store?</li>
+					<li>How many customers do you think come here everyday?</li>
+					<li>Have you encountered any problems with your customers?</li>
+					<li>Problems encountered with fellow employees?</li>
 				</ul>
 			</li>
 		</ul>
